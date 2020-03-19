@@ -14,6 +14,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     var mapView:MKMapView!
     var locationManager:CLLocationManager!
     var geocoder:CLGeocoder!    // 字符串地址与经纬度互转管理器
+    var mineCoord:CLLocationCoordinate2D! // 定位后的自身坐标
+    
     
     var arrayCoord:Array<CLLocationCoordinate2D>! = []
     
@@ -41,6 +43,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     func setupUI() {
         self.mapView = MKMapView.init(frame: CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
         self.mapView.delegate = self
+        // 设置地图初始化时跟随用户缩放
         self.mapView.userTrackingMode = MKUserTrackingMode.follow
         self.view.addSubview(self.mapView)
         
@@ -49,6 +52,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         // 获取定位授权
         getLocationPower()
+        // 获取自身坐标
+        findMe()
     }
     
     func getLocationPower() {
@@ -60,19 +65,13 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         // 间隔多少米重新定位
 //        self.locationManager.distanceFilter = 100
-        // 获取用户授权使用定位功能
-        //        let status = CLLocationManager.authorizationStatus()
-        //        if status == CLAuthorizationStatus.notDetermined {
-        //            self.locationManager.requestAlwaysAuthorization()
-        //        }
-        //        if !CLLocationManager.locationServicesEnabled() {
-        //            print("open location")
-        //        } else {
-        //
-        //        }
+        // 判断当前定位是否可用，不可用弹窗提示
+        if !CLLocationManager.locationServicesEnabled() {
+            print("设置打开定位授权")
+        }
         if self.locationManager.responds(to: NSSelectorFromString("requestWhenInUseAuthorization")) {
             self.locationManager.requestAlwaysAuthorization()
-//            self.locationManager.requestWhenInUseAuthorization()
+            self.locationManager.requestWhenInUseAuthorization()
         }
     }
     
@@ -82,15 +81,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     }
     // 绘出运动轨迹
     @objc func drawTrail() {
-        var arrayCoord:Array<CLLocationCoordinate2D> = []
         if self.arrayCoord.count == 0 {
             // 当传入数据为空时，模拟数据绘出轨迹
             for i in 0...30 {
-                let coord:CLLocationCoordinate2D! = CLLocationCoordinate2D.init(latitude: CLLocationDegrees(22 + i), longitude: CLLocationDegrees(114 + i))
-                arrayCoord.append(coord)
+                let coord:CLLocationCoordinate2D! = CLLocationCoordinate2D.init(latitude: self.mineCoord.latitude + Double(i), longitude: self.mineCoord.longitude + Double(i))
+                self.arrayCoord.append(coord)
             }
         }
-        let polyLine:MKPolyline = MKPolyline.init(coordinates: arrayCoord, count: arrayCoord.count)
+        let polyLine:MKPolyline = MKPolyline.init(coordinates: self.arrayCoord, count: self.arrayCoord.count)
         self.mapView.addOverlay(polyLine)
     }
     
@@ -172,6 +170,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         // 定位成功
         print("\(#function)")
         // 移动地图视角到定位目标处
+        self.mineCoord = locations.last?.coordinate;
 //        let lastLocation:CLLocation! = locations.last
 //        self.mapView.setRegion(MKCoordinateRegion.init(center: lastLocation.coordinate, latitudinalMeters: lastLocation.coordinate.latitude, longitudinalMeters: lastLocation.coordinate.longitude), animated: true)
 
