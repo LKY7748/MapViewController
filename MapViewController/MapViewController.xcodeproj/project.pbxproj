@@ -10,7 +10,7 @@
 		5F2C54C8243349010047D162 /* GradientPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C54C4243349000047D162 /* GradientPathRenderer.swift */; };
 		5F2C54C9243349010047D162 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C54C5243349000047D162 /* LICENSE */; };
 		5F2C54CA243349010047D162 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C54C6243349000047D162 /* MapViewController.swift */; };
-		5F2C54CB243349010047D162 /* MapViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C54C7243349000047D162 /* MapViewController.podspec */; };
+		5F2C54CD24334D860047D162 /* MapViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C54CC24334D860047D162 /* MapViewController.podspec */; };
 		5FCFFC1F2423002D0072E95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC1E2423002D0072E95D /* AppDelegate.swift */; };
 		5FCFFC232423002D0072E95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC222423002D0072E95D /* ViewController.swift */; };
 		5FCFFC262423002D0072E95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCFFC242423002D0072E95D /* Main.storyboard */; };
@@ -27,7 +27,7 @@
 		5F2C54C4243349000047D162 /* GradientPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPathRenderer.swift; sourceTree = "<group>"; };
 		5F2C54C5243349000047D162 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5F2C54C6243349000047D162 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		5F2C54C7243349000047D162 /* MapViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapViewController.podspec; sourceTree = "<group>"; };
+		5F2C54CC24334D860047D162 /* MapViewController.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapViewController.podspec; sourceTree = SOURCE_ROOT; };
 		5FCFFC1B2423002C0072E95D /* MapViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCFFC1E2423002D0072E95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FCFFC222423002D0072E95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 				5F2C54C4243349000047D162 /* GradientPathRenderer.swift */,
 				5F2C54C5243349000047D162 /* LICENSE */,
 				5F2C54C6243349000047D162 /* MapViewController.swift */,
-				5F2C54C7243349000047D162 /* MapViewController.podspec */,
 			);
 			path = MapViewController;
 			sourceTree = "<group>";
@@ -89,6 +88,7 @@
 		5FCFFC1D2423002C0072E95D /* MapViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5F2C54CC24334D860047D162 /* MapViewController.podspec */,
 				5F2C54C3243349000047D162 /* MapViewController */,
 				5FCFFC1E2423002D0072E95D /* AppDelegate.swift */,
 				5FCFFC222423002D0072E95D /* ViewController.swift */,
@@ -186,7 +186,7 @@
 				5FCFFC2B242300430072E95D /* LaunchScreen.storyboard in Resources */,
 				5FCFFC28242300430072E95D /* Assets.xcassets in Resources */,
 				5F2C54C9243349010047D162 /* LICENSE in Resources */,
-				5F2C54CB243349010047D162 /* MapViewController.podspec in Resources */,
+				5F2C54CD24334D860047D162 /* MapViewController.podspec in Resources */,
 				5FCFFC262423002D0072E95D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
