@@ -7,36 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2C54C8243349010047D162 /* GradientPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C54C4243349000047D162 /* GradientPathRenderer.swift */; };
+		5F2C54C9243349010047D162 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C54C5243349000047D162 /* LICENSE */; };
+		5F2C54CA243349010047D162 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C54C6243349000047D162 /* MapViewController.swift */; };
+		5F2C54CB243349010047D162 /* MapViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C54C7243349000047D162 /* MapViewController.podspec */; };
 		5FCFFC1F2423002D0072E95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC1E2423002D0072E95D /* AppDelegate.swift */; };
 		5FCFFC232423002D0072E95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC222423002D0072E95D /* ViewController.swift */; };
 		5FCFFC262423002D0072E95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCFFC242423002D0072E95D /* Main.storyboard */; };
 		5FCFFC28242300430072E95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCFFC27242300430072E95D /* Assets.xcassets */; };
 		5FCFFC2B242300430072E95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCFFC29242300430072E95D /* LaunchScreen.storyboard */; };
-		5FCFFC36242300460072E95D /* MapViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC35242300460072E95D /* MapViewControllerTests.swift */; };
-		5FCFFC41242300460072E95D /* MapViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC40242300460072E95D /* MapViewControllerUITests.swift */; };
 		5FCFFC50242300540072E95D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCFFC4F242300540072E95D /* MapKit.framework */; };
-		5FCFFC52242300C50072E95D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC51242300C50072E95D /* MapViewController.swift */; };
-		5FCFFC54242300CF0072E95D /* GradientPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFFC53242300CF0072E95D /* GradientPathRenderer.swift */; };
+		812E48937E9DF18E7653388E /* Pods_MapViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572F4A650F43C44A16064614 /* Pods_MapViewController.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5FCFFC32242300460072E95D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5FCFFC132423002C0072E95D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FCFFC1A2423002C0072E95D;
-			remoteInfo = MapViewController;
-		};
-		5FCFFC3D242300460072E95D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5FCFFC132423002C0072E95D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FCFFC1A2423002C0072E95D;
-			remoteInfo = MapViewController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		33909A1FF716EC6AC8FA0089 /* Pods_MapViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572F4A650F43C44A16064614 /* Pods_MapViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4D80E61FBAAA8D656651F7 /* Pods-MapViewController-MapViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewController-MapViewControllerUITests.debug.xcconfig"; path = "Target Support Files/Pods-MapViewController-MapViewControllerUITests/Pods-MapViewController-MapViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2C54C4243349000047D162 /* GradientPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPathRenderer.swift; sourceTree = "<group>"; };
+		5F2C54C5243349000047D162 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5F2C54C6243349000047D162 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5F2C54C7243349000047D162 /* MapViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapViewController.podspec; sourceTree = "<group>"; };
 		5FCFFC1B2423002C0072E95D /* MapViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCFFC1E2423002D0072E95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FCFFC222423002D0072E95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,15 +35,13 @@
 		5FCFFC27242300430072E95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FCFFC2A242300430072E95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FCFFC2C242300430072E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FCFFC31242300460072E95D /* MapViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FCFFC35242300460072E95D /* MapViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerTests.swift; sourceTree = "<group>"; };
-		5FCFFC37242300460072E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FCFFC3C242300460072E95D /* MapViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FCFFC40242300460072E95D /* MapViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerUITests.swift; sourceTree = "<group>"; };
-		5FCFFC42242300460072E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FCFFC4F242300540072E95D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		5FCFFC51242300C50072E95D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		5FCFFC53242300CF0072E95D /* GradientPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPathRenderer.swift; sourceTree = "<group>"; };
+		B245C0E6ED9D964F0CFDAB87 /* Pods-MapViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewControllerTests.release.xcconfig"; path = "Target Support Files/Pods-MapViewControllerTests/Pods-MapViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE956208C8940BD83CA88174 /* Pods_MapViewController_MapViewControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewController_MapViewControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26867D2484B19ACBBCD690F /* Pods-MapViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-MapViewControllerTests/Pods-MapViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E43FCB5233B267E9E61C42D4 /* Pods-MapViewController-MapViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewController-MapViewControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-MapViewController-MapViewControllerUITests/Pods-MapViewController-MapViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7132CF534D4FCFCC7208196 /* Pods-MapViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewController.release.xcconfig"; path = "Target Support Files/Pods-MapViewController/Pods-MapViewController.release.xcconfig"; sourceTree = "<group>"; };
+		EB983C3D8F19BF0FE8D5847D /* Pods-MapViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewController.debug.xcconfig"; path = "Target Support Files/Pods-MapViewController/Pods-MapViewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,34 +50,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCFFC50242300540072E95D /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FCFFC2E242300460072E95D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FCFFC39242300460072E95D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				812E48937E9DF18E7653388E /* Pods_MapViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2C54C3243349000047D162 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C54C4243349000047D162 /* GradientPathRenderer.swift */,
+				5F2C54C5243349000047D162 /* LICENSE */,
+				5F2C54C6243349000047D162 /* MapViewController.swift */,
+				5F2C54C7243349000047D162 /* MapViewController.podspec */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
 		5FCFFC122423002C0072E95D = {
 			isa = PBXGroup;
 			children = (
 				5FCFFC1D2423002C0072E95D /* MapViewController */,
-				5FCFFC34242300460072E95D /* MapViewControllerTests */,
-				5FCFFC3F242300460072E95D /* MapViewControllerUITests */,
 				5FCFFC1C2423002C0072E95D /* Products */,
 				5FCFFC4E242300540072E95D /* Frameworks */,
+				62D4C40C11541E70234E693D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				5FCFFC1B2423002C0072E95D /* MapViewController.app */,
-				5FCFFC31242300460072E95D /* MapViewControllerTests.xctest */,
-				5FCFFC3C242300460072E95D /* MapViewControllerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,10 +89,9 @@
 		5FCFFC1D2423002C0072E95D /* MapViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5F2C54C3243349000047D162 /* MapViewController */,
 				5FCFFC1E2423002D0072E95D /* AppDelegate.swift */,
 				5FCFFC222423002D0072E95D /* ViewController.swift */,
-				5FCFFC51242300C50072E95D /* MapViewController.swift */,
-				5FCFFC53242300CF0072E95D /* GradientPathRenderer.swift */,
 				5FCFFC242423002D0072E95D /* Main.storyboard */,
 				5FCFFC27242300430072E95D /* Assets.xcassets */,
 				5FCFFC29242300430072E95D /* LaunchScreen.storyboard */,
@@ -117,30 +100,28 @@
 			path = MapViewController;
 			sourceTree = "<group>";
 		};
-		5FCFFC34242300460072E95D /* MapViewControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				5FCFFC35242300460072E95D /* MapViewControllerTests.swift */,
-				5FCFFC37242300460072E95D /* Info.plist */,
-			);
-			path = MapViewControllerTests;
-			sourceTree = "<group>";
-		};
-		5FCFFC3F242300460072E95D /* MapViewControllerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5FCFFC40242300460072E95D /* MapViewControllerUITests.swift */,
-				5FCFFC42242300460072E95D /* Info.plist */,
-			);
-			path = MapViewControllerUITests;
-			sourceTree = "<group>";
-		};
 		5FCFFC4E242300540072E95D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5FCFFC4F242300540072E95D /* MapKit.framework */,
+				572F4A650F43C44A16064614 /* Pods_MapViewController.framework */,
+				CE956208C8940BD83CA88174 /* Pods_MapViewController_MapViewControllerUITests.framework */,
+				33909A1FF716EC6AC8FA0089 /* Pods_MapViewControllerTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62D4C40C11541E70234E693D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB983C3D8F19BF0FE8D5847D /* Pods-MapViewController.debug.xcconfig */,
+				E7132CF534D4FCFCC7208196 /* Pods-MapViewController.release.xcconfig */,
+				5B4D80E61FBAAA8D656651F7 /* Pods-MapViewController-MapViewControllerUITests.debug.xcconfig */,
+				E43FCB5233B267E9E61C42D4 /* Pods-MapViewController-MapViewControllerUITests.release.xcconfig */,
+				E26867D2484B19ACBBCD690F /* Pods-MapViewControllerTests.debug.xcconfig */,
+				B245C0E6ED9D964F0CFDAB87 /* Pods-MapViewControllerTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FCFFC45242300460072E95D /* Build configuration list for PBXNativeTarget "MapViewController" */;
 			buildPhases = (
+				575E87CEA5F5593E6A7C6700 /* [CP] Check Pods Manifest.lock */,
 				5FCFFC172423002C0072E95D /* Sources */,
 				5FCFFC182423002C0072E95D /* Frameworks */,
 				5FCFFC192423002C0072E95D /* Resources */,
@@ -163,42 +145,6 @@
 			productReference = 5FCFFC1B2423002C0072E95D /* MapViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FCFFC30242300460072E95D /* MapViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FCFFC48242300460072E95D /* Build configuration list for PBXNativeTarget "MapViewControllerTests" */;
-			buildPhases = (
-				5FCFFC2D242300460072E95D /* Sources */,
-				5FCFFC2E242300460072E95D /* Frameworks */,
-				5FCFFC2F242300460072E95D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5FCFFC33242300460072E95D /* PBXTargetDependency */,
-			);
-			name = MapViewControllerTests;
-			productName = MapViewControllerTests;
-			productReference = 5FCFFC31242300460072E95D /* MapViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5FCFFC3B242300460072E95D /* MapViewControllerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FCFFC4B242300460072E95D /* Build configuration list for PBXNativeTarget "MapViewControllerUITests" */;
-			buildPhases = (
-				5FCFFC38242300460072E95D /* Sources */,
-				5FCFFC39242300460072E95D /* Frameworks */,
-				5FCFFC3A242300460072E95D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5FCFFC3E242300460072E95D /* PBXTargetDependency */,
-			);
-			name = MapViewControllerUITests;
-			productName = MapViewControllerUITests;
-			productReference = 5FCFFC3C242300460072E95D /* MapViewControllerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,14 +157,6 @@
 				TargetAttributes = {
 					5FCFFC1A2423002C0072E95D = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					5FCFFC30242300460072E95D = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 5FCFFC1A2423002C0072E95D;
-					};
-					5FCFFC3B242300460072E95D = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 5FCFFC1A2423002C0072E95D;
 					};
 				};
 			};
@@ -236,8 +174,6 @@
 			projectRoot = "";
 			targets = (
 				5FCFFC1A2423002C0072E95D /* MapViewController */,
-				5FCFFC30242300460072E95D /* MapViewControllerTests */,
-				5FCFFC3B242300460072E95D /* MapViewControllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,25 +185,38 @@
 			files = (
 				5FCFFC2B242300430072E95D /* LaunchScreen.storyboard in Resources */,
 				5FCFFC28242300430072E95D /* Assets.xcassets in Resources */,
+				5F2C54C9243349010047D162 /* LICENSE in Resources */,
+				5F2C54CB243349010047D162 /* MapViewController.podspec in Resources */,
 				5FCFFC262423002D0072E95D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FCFFC2F242300460072E95D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FCFFC3A242300460072E95D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		575E87CEA5F5593E6A7C6700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FCFFC172423002C0072E95D /* Sources */ = {
@@ -275,42 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCFFC232423002D0072E95D /* ViewController.swift in Sources */,
-				5FCFFC52242300C50072E95D /* MapViewController.swift in Sources */,
 				5FCFFC1F2423002D0072E95D /* AppDelegate.swift in Sources */,
-				5FCFFC54242300CF0072E95D /* GradientPathRenderer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FCFFC2D242300460072E95D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FCFFC36242300460072E95D /* MapViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FCFFC38242300460072E95D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FCFFC41242300460072E95D /* MapViewControllerUITests.swift in Sources */,
+				5F2C54C8243349010047D162 /* GradientPathRenderer.swift in Sources */,
+				5F2C54CA243349010047D162 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5FCFFC33242300460072E95D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5FCFFC1A2423002C0072E95D /* MapViewController */;
-			targetProxy = 5FCFFC32242300460072E95D /* PBXContainerItemProxy */;
-		};
-		5FCFFC3E242300460072E95D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5FCFFC1A2423002C0072E95D /* MapViewController */;
-			targetProxy = 5FCFFC3D242300460072E95D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5FCFFC242423002D0072E95D /* Main.storyboard */ = {
@@ -448,10 +368,11 @@
 		};
 		5FCFFC46242300460072E95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB983C3D8F19BF0FE8D5847D /* Pods-MapViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
+				DEVELOPMENT_TEAM = 2C8K7VZJ38;
 				INFOPLIST_FILE = MapViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,10 +387,11 @@
 		};
 		5FCFFC47242300460072E95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7132CF534D4FCFCC7208196 /* Pods-MapViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
+				DEVELOPMENT_TEAM = 2C8K7VZJ38;
 				INFOPLIST_FILE = MapViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,90 +401,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5FCFFC49242300460072E95D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
-				INFOPLIST_FILE = MapViewControllerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.MapViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewController.app/MapViewController";
-			};
-			name = Debug;
-		};
-		5FCFFC4A242300460072E95D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
-				INFOPLIST_FILE = MapViewControllerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.MapViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewController.app/MapViewController";
-			};
-			name = Release;
-		};
-		5FCFFC4C242300460072E95D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
-				INFOPLIST_FILE = MapViewControllerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.MapViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapViewController;
-			};
-			name = Debug;
-		};
-		5FCFFC4D242300460072E95D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L33XCJU83N;
-				INFOPLIST_FILE = MapViewControllerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.MapViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapViewController;
 			};
 			name = Release;
 		};
@@ -583,24 +421,6 @@
 			buildConfigurations = (
 				5FCFFC46242300460072E95D /* Debug */,
 				5FCFFC47242300460072E95D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5FCFFC48242300460072E95D /* Build configuration list for PBXNativeTarget "MapViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FCFFC49242300460072E95D /* Debug */,
-				5FCFFC4A242300460072E95D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5FCFFC4B242300460072E95D /* Build configuration list for PBXNativeTarget "MapViewControllerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FCFFC4C242300460072E95D /* Debug */,
-				5FCFFC4D242300460072E95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

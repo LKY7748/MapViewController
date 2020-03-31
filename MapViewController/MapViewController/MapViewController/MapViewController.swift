@@ -13,8 +13,9 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
     var mapView:MKMapView!
     var locationManager:CLLocationManager!
-    var geocoder:CLGeocoder!    // 字符串地址与经纬度互转管理器
+//    var geocoder:CLGeocoder!    // 字符串地址与经纬度互转管理器
     var mineCoord:CLLocationCoordinate2D! // 定位后的自身坐标
+ 
     
     
     var arrayCoord:Array<CLLocationCoordinate2D>! = []
@@ -92,6 +93,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.mapView.addOverlay(polyLine)
     }
     
+    
     // MARK: -MKMapViewDelegate
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         // 根据添加的polyline数组，绘出对应的路线图
@@ -112,6 +114,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         return MKPolylineRenderer.init()
     }
+   
     
     func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
         // 地图的显示区域即将发生改变的时候调用
